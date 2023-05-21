@@ -2,11 +2,11 @@
 
 
 <?php foreach ($articles as $article): ?>
-    <h2><a href="articles/show/<?= $article->getId(); ?>"><?= $article->getTitle(); ?></a></h2>
-
-    <p><?= $article->getText(); ?></p>
-
-    <hr>
+    <div class="rounded-md bg-[#FFFFFF] px-4 max-h-36 overflow-hidden">
+        <h2 class="font-bold text-xl"><a href="articles/show/<?= $article->getId(); ?>"><?= $article->getTitle(); ?></a>
+        </h2>
+        <p class="text-[#707EAE]"><?= $article->getText(); ?></p>
+    </div>
 <?php endforeach; ?>
 
 
