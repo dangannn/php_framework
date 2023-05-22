@@ -7,5 +7,5 @@ return [
     '~^articles/add$~' => [Controllers\ArticleController::class, 'add'],
     '~articles/show/comments$~' => [Controllers\CommentController::class, 'add'],
     '~articles/comments/(\d+)/edit$~' => [Controllers\CommentController::class, 'edit'],
-//    '~comments/show/(\d+)~' => [Controllers\CommentController::class, 'show'],
+    '~articles/comments/(\d+)/delete$~' => [Controllers\CommentController::class, 'delete']
 ];

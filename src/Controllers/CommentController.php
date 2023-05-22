@@ -58,4 +58,13 @@ class CommentController
             header("Location: ../../show/" . $comment->getArticleId());
         }
     }
+
+    public function delete(int $commentId): void
+    {
+        if (isset($_POST['comment_delete']) && $_POST['comment_delete'] == '1') {
+            $comment = Comment::getById($commentId);
+            $comment->delete();
+            header("Location: ../../show/" . $comment->getArticleId());
+        }
+    }
 }
