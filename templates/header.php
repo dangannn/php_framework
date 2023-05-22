@@ -18,9 +18,9 @@ bg-gradient-to-r from-violet-500 to-fuchsia-500">
         </h1>
         <nav>
             <ul class="flex justify-evenly pb-2">
-                <li><a class="text-[#707EAE] hover:text-black ease-linear duration-75 hover:border-b-2 hover:border-violet-500"  href="/framework/www">Главная страница</a></li>
-                <li><a class="text-[#707EAE] hover:text-black ease-linear duration-75 hover:border-b-2 hover:border-violet-500" href="/framework/www/articles/add">Создать</a></li>
-                <li><a class="text-[#707EAE] hover:text-black ease-linear duration-75 hover:border-b-2 hover:border-violet-500" href="/framework/www/hello/daniil">Обо мне</a></li>
+                <li><a class="text-[#707EAE] hover:text-black ease-linear duration-75 hover:border-b-2 hover:border-violet-500"  href="/php_framework/www">Главная страница</a></li>
+                <li><a class="text-[#707EAE] hover:text-black ease-linear duration-75 hover:border-b-2 hover:border-violet-500" href="/php_framework/www/articles/add">Создать</a></li>
+                <li><a class="text-[#707EAE] hover:text-black ease-linear duration-75 hover:border-b-2 hover:border-violet-500" href="/php_framework/www/hello/daniil">Обо мне</a></li>
             </ul>
         </nav>
     </header>
